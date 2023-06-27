@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <link rel="stylesheet" href="main.css">  
-        <script src="main.js" type="text/javascript"></script>    
+
+    <link rel="stylesheet" href="main.css">  
+    <script src="main.js" type="text/javascript"></script>    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+
+
 </head>
-<body>
+<body>    
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Homepage</a>
         <a href="#">Characters</a>
         <a href="#">Locations</a>
         <a href="#">Adventures</a>
+        <a href="calendar.html">Calendar</a>
       </div>
-      
-      <!-- Use any element to open the sidenav -->
-      <span onclick="openNav()" style="cursor: pointer;">Menu</span>
-      
-      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-      <div id="main">
+
+     <!-- Use any element to open the sidenav -->
+    <div id="menu"><span onclick="openNav()" style="cursor: pointer;">Menu</span></div>
+    
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
         <h1>Bish Vegas DND</h1>
+        <p>We are currently in the 5th day of the 3rd month (Ches - Claw of Sunsets).</p>
         <p>Mechanics to remember in the game:</p>
         <p>- Proficiency Die <br>
         - Injuries <br>
@@ -33,7 +41,7 @@
         - Skill Challenges <br>
         - Wilderness Survival <br>
         - Downtime <br></p>
-        </div>
+    </div>
 </body>
 </html>
       

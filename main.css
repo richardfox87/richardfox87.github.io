@@ -3,12 +3,46 @@ h1 {
     font-weight: bold;
     color: rgb(153, 147, 147);
     font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h2 {
+    font-weight: bold;
+    color: rgb(153, 147, 147);
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
   }
 /* End of Main Fonts */
 
-/* Mouse Tags */
-.pointer { cursor: pointer; }
-/* End of Mouse Tags */
+/* Table */
+table {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+  }
+
+th {
+    height: 50px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #52818d;
+    color: white;
+  }
+
+td {
+    height: 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-left: 10px;
+  }
+
+
+/* End of Table */
 
 /* The side navigation menu */
 .sidenav {
@@ -49,6 +83,10 @@ h1 {
     transition: margin-left .5s;
     padding: 20px;
   }
+
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+}
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
